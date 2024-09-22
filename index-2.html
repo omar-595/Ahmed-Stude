@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Book</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/book.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+</head>
+<body>
+
+	<header>
+      <nav>
+        <a href="index.html"><i class="fa fa-note-sticky"></i></a>
+        <br>
+        <a href="index-1.html"><i class="fa fa-list-check"></i></a>
+        <br>
+        <a href="#"><i class="fa fa-book"></i></a>
+      </nav>
+    </header>
+
+    <div class="cont-1">
+    	<button id="button-1" onclick='sho("ve");'> مستر احمد متعب   10:30<i class="fa fa-angle-down"></i></button>
+    	<button id="button-2" onclick="hid('ve');"> مستر احمد متعب   10:30<i class="fa fa-angle-up"></i></button>
+    	<div class="conte-1" id="bo1">
+    		<ul>
+    		<li>رسم فني  <i class="fa fa-arrow-left"></i> الأحد</li>
+    		<li>الالات  <i class="fa fa-arrow-left"></i> الثلاثاء</li>
+    		<li>فزياء  <i class="fa fa-arrow-left"></i> الأربعاء</li>
+    		<li>معمل الالات  <i class="fa fa-arrow-left"></i></li>
+    		<li>رياضيات  <i class="fa fa-arrow-left"></i> </li>
+    	</ul>
+    	</div>
+    </div>
+
+    <div class="cont-2">
+    	<button id="button-3" onclick='sho2("ve");'> مستر  سامي   12:30<i class="fa fa-angle-down"></i></button>
+    	<button id="button-4" onclick='hid2("ve");'> مستر سامي   12:30<i class="fa fa-angle-up"></i></button>
+    	<div class="conte-2" id="bo2">
+    		<ul>
+    		<li>الكترونيات  <i class="fa fa-arrow-left"></i> الأربعاء</li>
+    		<li>تطبيقات  <i class="fa fa-arrow-left"></i> الأحد</li>
+    		<li>تحكم  <i class="fa fa-arrow-left"></i> الثلا ثاء</li>
+    		<li>معمل تحكم  <i class="fa fa-arrow-left"></i></li>
+    		<li>رياضيات  <i class="fa fa-arrow-left"></i> </li>
+    	</ul>
+    	</div>
+    </div>
+
+    <div class="cont-3">
+        <button id="button-5" onclick='sho3("ve");'> مواد اخرى<i class="fa fa-angle-down"></i></button>
+        <button id="button-6" onclick='hid3("ve");'> مواد اخرى<i class="fa fa-angle-up"></i></button>
+        <div class="conte-3" id="bo3">
+            <ul>
+            <li>الكترونيات  <i class="fa fa-arrow-left"></i> الأربعاء</li>
+            <li>تطبيقات  <i class="fa fa-arrow-left"></i> الأحد</li>
+            <li>تحكم  <i class="fa fa-arrow-left"></i> الثلا ثاء</li>
+            
+        </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/book.js"></script>
+</body>
+</html>
